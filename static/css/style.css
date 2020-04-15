@@ -1,0 +1,57 @@
+body, html {
+  margin-top: 3px;
+  padding: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  color: #333;
+  font-weight: 400;
+  }
+
+#map {
+    position: relative;
+    height:500px;
+    width:100%;
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+
+.slider {
+    position: relative;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+h1, h2 {
+    line-height: 1em;
+    font-size: 1.75em;
+    font-weight: 900;
+    color: #000;
+  }
+
+.day {
+    margin: 10px 0px 5px 0px;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+/* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
+.wrapper {
+    position: relative;
+    min-height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    position: bottom;
+    bottom: 0;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+
+
+}
