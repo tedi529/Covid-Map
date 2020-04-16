@@ -82,6 +82,7 @@ api_keys.py
 
 
 # DB KEYS
+config.js
 config.py
 config.py.ipynb
 
