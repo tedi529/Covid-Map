@@ -109,7 +109,7 @@ Object.entries(countiesObject).forEach(element => {
 // Read in county cases csv data
 d3.csv("static/data/counties_cases.csv").then(function(data) {
     let casesObject = data;
-    console.log(casesObject);
+ 
     casesObject.forEach(county => {
         var elements = Object.keys(county);
         var values = Object.values(county);
@@ -133,6 +133,8 @@ d3.csv("static/data/counties_cases.csv").then(function(data) {
         let casesClean = objectify(info);
         cases.push(casesClean);
     });  
+
+    console.log(cases);
     
     transformCasesToFipsMap(cases);
     initMap();
