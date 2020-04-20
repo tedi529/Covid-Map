@@ -109,7 +109,7 @@ Object.entries(countiesObject).forEach(element => {
 // Read in county cases csv data
 d3.csv("static/data/counties_cases.csv").then(function(data) {
     let casesObject = data;
-
+    console.log(casesObject);
     casesObject.forEach(county => {
         var elements = Object.keys(county);
         var values = Object.values(county);
@@ -211,7 +211,7 @@ function updateSlider(chosenDate) {
 
 // Make Slider
 let minDate = new Date('2020-01-21').getTime() / 1000;
-let maxDate = new Date('2020-04-08').getTime() / 1000;
+let maxDate = new Date('2020-04-20').getTime() / 1000;
 
 
 let slider = d3.select(".slider")
