@@ -6,3 +6,4 @@ The map herein is a United States county map of cumulative confirmed COVID-19 ca
 
 The map was built using <a href="https://leafletjs.com/">Leaflet.js</a> with the county geojson object for county shapes obtained from Eric Celeste <a href="https://eric.clst.org/tech/usgeojson/"> here</a> using data from the <a href="https://www.census.gov/en.html"> US Census Bureau</a>.
 
+![](https://github.com/tedi529/Covid-Map/blob/master/map.PNG)
